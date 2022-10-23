@@ -1,0 +1,8 @@
+version: '2.2'
+
+services:
+  app4:
+    image: 'alt1983:latest'
+    build: ./
+    ports:
+      - '8080:8080'
